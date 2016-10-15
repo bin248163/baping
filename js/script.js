@@ -10,7 +10,10 @@ $(function() {
 	    tgn=$('#tgn'),
 	    kfn=$('#kfn'),
 	    top=$('#top');
-	jsn.addClass('t-3');
+	
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 0) {
+			jsn.addClass('t-3');
 	jsn.find('.web-l').addClass('n-3');
 	jsn.find('.web-r').addClass('n-3r');
 	tgn.addClass('t-3');
@@ -20,7 +23,7 @@ $(function() {
 	kfn.find('.web-l').addClass('n-3');
 	kfn.find('.web-r').addClass('n-3r');
 	top.addClass('t-3');
-	$(window).scroll(function() {
+		}
 		if ($(window).scrollTop() > $('#jsn').offset().top - $(window).height()) {
 			$('#jsn').addClass('t-3h').find('.web-l,.web-r').addClass('t-3h');
 		}else{
