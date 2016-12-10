@@ -1,4 +1,12 @@
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d0b8c6014f11f0286bf530137cbcdda1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 $(function() {
+	
 	//禁止右键代码，单机鼠标右键时禁止它的默认事件
 	/*var body = document.getElementsByTagName('body')[0];
 	body.oncontextmenu = function() {

@@ -101,7 +101,7 @@
 	    </div>
 	    <div class="xf">
 	        <div class="jg">
-                <span>￥</span>8800
+              
             </div>
             <div class="pj">
                 <i class="iconfont">&#xe601;</i>
@@ -124,7 +124,7 @@
 	    </div>
 	    <div class="xf">
 	        <div class="jg">
-                <span>￥</span>8800
+               
             </div>
             <div class="pj">
                 <i class="iconfont">&#xe601;</i>
@@ -147,7 +147,7 @@
 	    </div>
 	    <div class="xf">
 	        <div class="jg">
-                <span>￥</span>6600
+              
             </div>
             <div class="pj">
                 <i class="iconfont">&#xe601;</i>
@@ -164,7 +164,7 @@
 <div class="w-1000 pc-30" id="tgn">
 	<div class="web-l"><img src="images/l2_13.jpg" alt="" /></div>
 	<div class="web-r ml-10">
-	    <span class="web-r-s">账户推广搜索</span>
+	    <span class="web-r-s">账户推广运营</span>
 	    <i class="i-s w3"></i>
 	    <div>
 	        <p class="p1">更省钱、更赚钱</p>
@@ -176,7 +176,7 @@
 	    </div>
 	    <div class="xf">
 	        <div class="jg">
-                <span>￥</span>8800
+             
             </div>
             <div class="pj">
                 <i class="iconfont">&#xe601;</i>
@@ -200,7 +200,7 @@
 	    </div>
 	    <div class="xf">
 	        <div class="jg">
-                <span>￥</span>8800
+            
             </div>
             <div class="pj">
                 <i class="iconfont">&#xe601;</i>
@@ -222,7 +222,7 @@
 	    </div>
 	    <div class="xf">
 	        <div class="jg">
-                <span>￥</span>6600
+              
             </div>
             <div class="pj">
                 <i class="iconfont">&#xe601;</i>
@@ -248,7 +248,7 @@
 	    </div>
 	    <div class="xf">
 	        <div class="jg">
-                <span>￥</span>免费
+               
             </div>
             <div class="pj">
                 <i class="iconfont">&#xe601;</i>
@@ -272,7 +272,7 @@
 	    </div>
 	    <div class="xf">
 	        <div class="jg">
-                <span>￥</span>免费
+                
             </div>
             <div class="pj">
                 <i class="iconfont">&#xe601;</i>
@@ -296,7 +296,7 @@
 	    </div>
 	    <div class="xf">
 	        <div class="jg">
-                <span>￥</span>免费
+              
             </div>
             <div class="pj">
                 <i class="iconfont">&#xe601;</i>
@@ -313,7 +313,7 @@
     <div class="yxn">
         <h1>一站式网站营销服务需求？</h1>
         <p>立即咨询霸屏服务热线</p>
-        <a href="">电话咨询</a><span>181-9237-3639</span>
+        <a href="">电话咨询</a><span>150-0293-3668</span>
     </div>
 </div>
 <!--优势-->

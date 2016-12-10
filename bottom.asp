@@ -16,7 +16,7 @@
 					<a href="">客服服务</a>
 				</li>
 				<li>
-					<a href="">我们优势</a>
+					<a href="">公司优势</a>
 				</li>
 			</ul>
 		</div>
@@ -58,16 +58,13 @@
 			<h3 class="h4">联系我们</h3>
 			<ul>
 				<li>
-					<a href="">电话：18192373639</a>
+					<a href="">电话：150-0293-3668</a>
 				</li>
 				<li>
-					<a href="">电话：40000-10000</a>
+					<a href="">北京地址：北京市朝阳区北苑路170号凯旋城C座22层</a>
 				</li>
 				<li>
-					<a href="">地址：北京市朝阳区北苑路170号凯旋城C座22层</a>
-				</li>
-				<li>
-					<a href="">西安办事处：西安市未央区利君V时代A座16层</a>
+					<a href="">西安地址：西安市未央区凤城一路利君V时代A座16层</a>
 				</li>
 			</ul>
 		</div>
@@ -93,13 +90,13 @@
 	<div class="dj" id="zx"><img src="images/right_09.jpg" alt="" /></div>
 	<div class="qqn" id="zxn">
 		<p>我们在这里为您提供咨询服务</p>
-		<a href="" class="qqn1">
+		<a href="tencent://message/?uin=3391936047&Site=霸屏科技&Menu=yes" class="qqn1">
 			<i class="iconfont">&#xe604;</i>
 			<span>点击咨询</span>
 		</a>
 		<div class="qqn1">
 			<i class="iconfont">&#xe603;</i>
-			<span>181-9237-3639</span>
+			<span>150-0293-3668</span>
 		</div>
 		<a href=""  class="qqn1" id="re">
 			<i class="iconfont">&#xe602;</i>

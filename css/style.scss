@@ -1,8 +1,8 @@
 @charset "utf-8";//设置此项才能编译通过有中文的注释的scss文件
 @import "Globalstyle.scss";//插入外部文件：全局样式
 /*
-Author:  yzb123 
-Author url: http://yzb123.top/
+Author:  前小端 
+Author url: http://www.qianxiaoduan.com/
 */
 $color:#059fda !default;//定义全局主色
 $bj:#eee;//定义页面灰色背景
@@ -235,6 +235,7 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
     }
 }
 .ewm{width: 130px;float: right;padding: 0 10px;
+    img{width: 100%;}
     p{text-align: center;color: #bbb;}
 }
 .bottom1{width: 100%;padding: 10px 0;overflow: hidden;background: #242424;min-width: $width;z-index: 9;position: relative;
@@ -255,7 +256,9 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
 .qqn1{display: block;padding-left: 20px;padding-bottom: 10px;
     i{display: inline-block;color: $color;font-size: 20px;}
     span{padding-left: 20px;color: $color;}
-    .r-ewm{padding-right: 20px;padding-top: 10px;display: none;}
+    .r-ewm{padding-right: 20px;padding-top: 10px;display: none;
+        img{width: 100%;}
+    }
 }
 .r-d{border-top:1px solid #d6d6d6 ;background: url(../images/logo-r_13.jpg) no-repeat 10px center;padding-top: 10px;padding-left: 50px;line-height: 20px;padding-bottom: 10px;
     span{width: 40px;display: inline-block;line-height: 15px;}
