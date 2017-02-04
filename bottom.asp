@@ -85,7 +85,7 @@
 		</div>
 	</div>
 </div>
-<div class="jb"></div>
+
 <div class="qq" id="qq">
 	<div class="dj" id="zx"><img src="images/right_09.jpg" alt="" /></div>
 	<div class="qqn" id="zxn">
@@ -114,7 +114,7 @@
 	</div>
 </div>
 </body>
-<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
 <script src="js/slider.js"></script>
 <script src="js/script.js"></script>
 </html>

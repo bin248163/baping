@@ -99,7 +99,9 @@
 	    </a>
 	</div>
 </div>
-
+<script type="text/javascript"> 
+	$('.jb').animate({'width':'50%'},50); 
+</script> 
 <div class="w-1000 pc-30" id="jsn">
 	<div class="web-l"><img src="images/l1_13.jpg" alt="" /></div>
 	<div class="web-r ml-10">
@@ -323,6 +325,9 @@
 	    </div>
 	</div>	
 </div>
+<script type="text/javascript"> 
+	$('.jb').animate({'width':'80%'},50); 
+</script> 
 <div class="yx" id="yxn">
     <div class="yxn">
         <h1>一站式网站营销服务需求？</h1>
@@ -348,6 +353,9 @@
 北京霸屏科技有限公司本着做精品，不做次品的态度，每月只接3个订单。专注做好线上入口布局、流量拦截、订单解决的优化工作，用数据和事实说话，为您创造更多。</p>
 </div>
 <div class="top" id="top">&and;返回顶部&and;</div>
+<script type="text/javascript"> 
+	$('.jb').animate({'width':'100%'},50); 
+</script> 
 <!--#include file="bottom.asp"-->
 <script type="text/javascript">
 		function curNav(num) {

@@ -9,9 +9,11 @@
 " />
 		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 		<link href="css/style.css" rel="stylesheet" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 	</head>
 
 	<body>
+		<div class="jb"></div>
 		<div class="w-1000">
 			<a href="index.asp" class="logo"><img src="images/logo_03.jpg" alt="" /></a>
 			<div class="tel">

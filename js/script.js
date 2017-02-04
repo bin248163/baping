@@ -13,7 +13,21 @@ $(function() {
 		return false;
 	}*/
 	
-	
+	//tab选项卡
+				var $tabList = $('.bg211 ul li');
+				var $tab = $('.bg212-w');
+				$tabList.hover(function() {
+					$(this).addClass('this').siblings().removeClass('this');
+					var index = $tabList.index(this);
+					$tab.find('>div').eq(index).show().siblings().hide();
+				})
+				$tabList.click(function() {
+					$(this).addClass('this').siblings().removeClass('this');
+					var index = $tabList.index(this);
+					$tab.find('>div').eq(index).show().siblings().hide();
+					return false;
+				});
+				$tabList.eq(0).click();
 	//渐现
 	var jsn = $('#jsn'),
 		tgn = $('#tgn'),
@@ -146,4 +160,5 @@ if(jsn.length > 0){
 		}, 500);
 		return false;
 	});
+	 $('.jb').fadeOut(); 
 })
