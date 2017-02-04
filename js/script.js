@@ -12,7 +12,8 @@ $(function() {
 	body.oncontextmenu = function() {
 		return false;
 	}*/
-
+	
+	
 	//渐现
 	var jsn = $('#jsn'),
 		tgn = $('#tgn'),

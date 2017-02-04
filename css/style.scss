@@ -311,14 +311,29 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
     &:hover{color: #fff;background: $color;}
 }
 .bg11{position: absolute;left: 50%; opacity: 0; transition: all 1s;margin-left:-($width / 2);width: $width;overflow: hidden;top:50%;margin-top: -240px;}
-.bg21{width: 1090px;position: absolute;left: 50%;margin-left: -545px;top: 50%;margin-top: -200px;
-    .bg211{width: 660px;margin: 0 auto;
+.bg21{opacity: 0;transition: all 1s;width: 1090px;position: absolute;left: 50%;margin-left: -545px;top: 50%;margin-top: 100px;
+    .bg211{width: 660px;margin: 0 auto 42px;height: 50px;
         ul{
             li{height: 50px;line-height: 50px;background: #fff;width: 180px;margin: 0 20px;float: left;text-align: center;font-size: 16px;border-radius: 3px;}
             li.this{background: $color;color: #fff;}
         }
     }
+    .bg212{width: 100%;overflow: hidden;
+        .bg212-w{width: 10000px;}
+        .bg212-con{width: 1090px;float: left;overflow: hidden;
+            .div1{background: #fff;width: 530px;overflow: hidden;height: 160px;overflow: hidden;margin-bottom: 25px;padding-top: 10px;
+               img{width: 186px;float: left;margin-left: 35px;} 
+               div{float: right;width: 270px;padding-right: 13px;padding-bottom: 40px;position: relative;
+                    p{font-size: 14px;line-height: 24px;}
+                    span{color: $color;}
+                    a{height: 36px;width: 36px;background: #5f5f5f;color: #fff;text-align: center;line-height: 36px;display: block;position: absolute;bottom: 0;right: 0;}
+               }
+            }
+            
+        }
+    }
 }
+.bg22{position: absolute;left: 50%; opacity: 0; transition: all 1s;top: 0;margin-left:-($width / 2);width: $width;overflow: hidden;}
 .bg31{opacity: 0;transition: all 1s;width: 465px;height: 186px;background: url(../images/lc1.png) no-repeat left top;padding: 20px 0 0 20px;position: absolute;left: 50%;margin-left: -595px;top: 50%;margin-top: -326px;
     img{width: 183px;height: 157px;float: left;}
     div{float: left;padding-left: 20px;padding-top: 20px;
@@ -383,7 +398,8 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
 .bg62{position: absolute;left: 50%; opacity: 0; transition: all 1s;bottom: 0;margin-left:-75px;}
 .bg63{position: absolute;left: 50%; opacity: 0; transition: all 1s;top: 0;margin-left:-($width / 2);width: $width;overflow: hidden;}
 .active .bg11{opacity: 1;transition-delay: 0.8s;margin-left:-($width / 2);top:50%;margin-top: -240px;overflow: hidden;width: $width;}
-.active .bg21{}
+.active .bg21{opacity: 1;transition-delay: 0.8s;top: 50%;margin-top: -100px;}
+.active .bg22 {opacity: 1;transition-delay: 0.8s;margin-left:-($width / 2);top:50%;margin-top: -300px;}
 .active .bg31{opacity: 1;transition-delay: 0.8s;left: 50%;margin-left: -495px;top: 50%;margin-top: -226px;}
 .active .bg32{opacity: 1;transition-delay: 0.8s;right: 50%;margin-right: -495px;top: 50%;margin-top: -226px;}
 .active .bg33{opacity: 1;transition-delay: 0.8s;left: 50%;margin-left: -495px;top: 50%;margin-top:-20px;}
@@ -403,6 +419,12 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
 .active .bg61 {opacity: 1;transition-delay: 0.8s;width: 1099px;margin-left:-550px;top:50%;margin-top: -20px;}
 .active .bg62 {opacity: 1;transition-delay: 0.8s;margin-left:-75px;bottom: 50%;margin-bottom: -230px;}
 .active .bg63 {opacity: 1;transition-delay: 0.8s;margin-left:-($width / 2);top:50%;margin-top: -230px;}
+
+//web
+.ws{float: left;width: 270px;float: left;margin-right: 40px;margin-top: 70px;
+    h2{font-size: 16px;font-weight: normal;padding-top: 15px;}
+    p{padding: 8px 0 10px;}
+}
 //首页banner样式 更改banner高度只需更改此文件头部定义$banner函数值
 .flexslider {position: relative;width: 100%;height: $banner;overflow: hidden;zoom: 1;margin-bottom: 15px;background: #eee;
     .slides li {width: 100%;height: 100%;

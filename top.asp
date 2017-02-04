@@ -37,7 +37,7 @@
 							<a href="case.asp">案例</a>
 						</li>
 						<li>
-							<a href="index.asp" class="kf">网站建设</a>
+							<a href="web.asp">网站建设</a>
 						</li>
 						<li>
 							<a href="index.asp" class="yxx">推广营销</a>

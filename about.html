@@ -135,7 +135,6 @@
 				width: 115px;
 			}
 			
-			
 			.section strong {
 				position: absolute;
 				left: 50%;
@@ -182,8 +181,6 @@
 				opacity: 0;
 				transition: all 1s;
 			}
-			
-		
 			
 			.go {
 				position: absolute;
@@ -253,15 +250,6 @@
 				transition-delay: 0.7s;
 			}
 			
-			
-			
-			
-			
-			
-			
-			
-		
-			
 			.active .go {
 				top: 25%;
 				opacity: 1;
@@ -310,7 +298,6 @@
 				transition-delay: 2s;
 			}
 			
-			
 			.ltie10 .bg22 {
 				margin-left: -280px;
 				opacity: 1;
@@ -322,7 +309,6 @@
 				opacity: 1;
 				transition-delay: 0.7s;
 			}
-						
 		</style>
 		<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 		<script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js "></script>
@@ -388,6 +374,21 @@
 						NextPage();
 					}, 4000);
 				});
+				//tab选项卡
+				var $tabList = $('.bg211 ul li');
+				var $tab = $('.bg212-w');
+				$tabList.hover(function() {
+					$(this).addClass('this').siblings().removeClass('this');
+					var index = $tabList.index(this);
+					$tab.find('>div').eq(index).show().siblings().hide();
+				})
+				$tabList.click(function() {
+					$(this).addClass('this').siblings().removeClass('this');
+					var index = $tabList.index(this);
+					$tab.find('>div').eq(index).show().siblings().hide();
+					return false;
+				});
+				$tabList.eq(0).click();
 			});
 		</script>
 	</head>
@@ -461,8 +462,8 @@
 			</div>
 		</div>
 
-		<div class="section section2" style="background: #f5f5f5;">
-			<div class="w-1000 n_fd2">
+		<div class="section section2" style="background:url(images/bg2b.jpg) no-repeat center bottom #f5f5f5;">
+			<div class="bg22">
 				<div class="a_center">
 					<h1>最新动态</h1>
 					<h2>—— NEWS CENTER ——</h2>
@@ -478,11 +479,119 @@
 						<li>建站知识</li>
 					</ul>
 				</div>
+				<div class="bg212">
+					<div class="bg212-w">
+						<div class="bg212-con">
+							<div class="div1 fl">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+							<div class="div1 fr">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+							<div class="div1 fl">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+							<div class="div1 fr">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg212-con">
+							<div class="div1 fl">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+							<div class="div1 fr">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+							<div class="div1 fl">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+							<div class="div1 fr">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg212-con">
+							<div class="div1 fl">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+							<div class="div1 fr">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+							<div class="div1 fl">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+							<div class="div1 fr">
+								<img src="images/bg2_03.jpg" alt="" />
+								<div>
+									<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+									<p>北京霸屏科技有限公司提供专业SEO网站建设、网站优化、网站推广、搜索引擎优化。</p>
+									<a href="">+</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<div class="section section3">
-			<div class="lc"><div class="lc1"></div></div>
+			<div class="lc">
+				<div class="lc1"></div>
+			</div>
 			<div class="bg31">
 				<img src="images/lcc1_03.jpg" alt="" />
 				<div>
