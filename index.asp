@@ -3,14 +3,21 @@
 	<div id="banner_tabs" class="flexslider">
 		<ul class="slides">
 			<li>
-				<a href="#"><img style="background: url(images/banner1_06.jpg) no-repeat center;" /></a>
+				<a href="#" style="background: url(images/banner2.jpg) no-repeat center;"></a>
 			</li>
 			<li>
-				<a href="#"><img style="background: url(images/banner1_06.jpg) no-repeat center;" /></a>
+				<a href="#" style="background: url(images/banner3.jpg) no-repeat center;"></a>
 			</li>
 			<li>
-				<a href="#"><img style="background: url(images/banner1_06.jpg) no-repeat center;" /></a>
+				<a href="#" style="background: url(images/banner4.jpg) no-repeat center;"></a>
 			</li>
+			<li>
+				<a href="#" style="background: url(images/banner1_06.jpg) no-repeat center;"></a>
+			</li>
+			<li>
+				<a href="#"  style="background: url(images/banner1.jpg) no-repeat center;" ></a>
+			</li>
+			
 		</ul>
 		<ul class="flex-direction-nav">
 			<li>
@@ -23,20 +30,26 @@
 		</ul>
 		<ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
 			<li class="active">
-				<a>1</a>
+				<a></a>
 			</li>
 			<li>
-				<a>2</a>
+				<a></a>
 			</li>
 			<li>
-				<a>2</a>
+				<a></a>
+			</li>
+			<li>
+				<a></a>
+			</li>
+			<li>
+				<a></a>
 			</li>
 		</ol>
 	</div>
 </div>
-<div class="w-1000">
+<div class="w-1000 css">
 	<h1 class="h1 pt-20">我们积累了各行各业丰富的案例和经验</h1>
-	<h2 class="h2 pt-15">全部 / <a href="" id="js">网站建设</a> / <a href="" id="tg">推广</a> / <a href="" id="kf">客服</a> / <a href="" id="yx">营销优势</a> / <a href="" id="bp">关于霸屏</a></h2>
+	<h2 class="h2 pt-15">全部 / <a href="" class="js">网站建设</a> / <a href="" class="tg">推广</a> / <a href="" class="kf">客服</a> / <a href="" class="yxx">营销优势</a> / <a href="" class="bpp">关于霸屏</a></h2>
 	<div class="w-1000">
 	    <a href="http://zhengzhibang.com/" class="al mr-30" target="_blank" rel="noopenper">
 	        <img src="images/al1_09.jpg" />
@@ -45,27 +58,28 @@
 	    </a>
 	    <a href="http://4000010000.com/" class="al mr-30" target="_blank" rel="noopenper">
 	        <img src="images/al2_09.jpg" />
-	        <span class="al-s">居安之家</span>	 
+	        <span class="al-s">居安之家(推广站)</span>	 
 	        <span class="al-x"><i class="iconfont">&#xe600;</i></span>	
 	    </a>
-	    <a href="http://paopaoyin.com/" class="al" target="_blank" rel="noopenper">
+	    <a href="http://new.paopaoyin.com/" class="al" target="_blank" rel="noopenper">
 	        <img src="images/al3_09.jpg" />
 	        <span class="al-s">泡泡网印刷平台</span>	 
 	        <span class="al-x"><i class="iconfont">&#xe600;</i></span>	
 	    </a>
-	    <a href="" class="al mr-30" target="_blank" rel="noopenper">
+	    <a href="http://aimier888.com/" class="al mr-30" target="_blank" rel="noopenper">
 	        <img src="images/al4_09.jpg" />
-	        <span class="al-s">米多多</span>	 
+	        <span class="al-s">艾米尔</span>	 
 	        <span class="al-x"><i class="iconfont">&#xe600;</i></span>	
 	    </a>
-	    <a href="http://xayiyang.com/" class="al mr-30" target="_blank" rel="noopenper">
-	        <img src="images/al5_09.jpg" />
-	        <span class="al-s">毅阳环保</span>	 
+	    <a href="http://www.juanzhijia.com/" class="al mr-30" target="_blank" rel="noopenper">
+	        <img src="images/al8_09.jpg" />
+	        <span class="al-s">居安之家(形象站)</span>	 
 	        <span class="al-x"><i class="iconfont">&#xe600;</i></span>	
 	    </a>
-	    <a href="" class="al" target="_blank" rel="noopenper">
+	   
+	    <a href="http://www.hangtianyunmo.com/" class="al" target="_blank" rel="noopenper">
 	        <img src="images/al6_09.jpg" />
-	        <span class="al-s">新画面</span>	 
+	        <span class="al-s">航天云膜</span>	 
 	        <span class="al-x"><i class="iconfont">&#xe600;</i></span>	
 	    </a>
 	    <a href="http://yongxian888.com/" class="al mr-30" target="_blank" rel="noopenper">
@@ -73,14 +87,14 @@
 	        <span class="al-s">永先装饰</span>	 
 	        <span class="al-x"><i class="iconfont">&#xe600;</i></span>	
 	    </a>
-	    <a href="" class="al mr-30" target="_blank" rel="noopenper">
-	        <img src="images/al8_09.jpg" />
-	        <span class="al-s">泳尚游泳俱乐部</span>	 
+	     <a href="http://xayiyang.com/" class="al mr-30" target="_blank" rel="noopenper">
+	        <img src="images/al5_09.jpg" />
+	        <span class="al-s">毅阳环保</span>	 
 	        <span class="al-x"><i class="iconfont">&#xe600;</i></span>	
 	    </a>
-	    <a href="" class="al" target="_blank" rel="noopenper">
+	    <a href="http://029qianzheng.com/" class="al" target="_blank" rel="noopenper">
 	        <img src="images/al9_09.jpg" />
-	        <span class="al-s">四通搬家</span>	 
+	        <span class="al-s">悦享签证</span>	 
 	        <span class="al-x"><i class="iconfont">&#xe600;</i></span>	
 	    </a>
 	</div>
@@ -335,3 +349,10 @@
 </div>
 <div class="top" id="top">&and;返回顶部&and;</div>
 <!--#include file="bottom.asp"-->
+<script type="text/javascript">
+		function curNav(num) {
+			var nav = $('#nav ul li');
+			nav.eq(num).addClass('this');
+		}
+		curNav(0);
+	</script>

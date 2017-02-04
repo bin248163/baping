@@ -12,7 +12,7 @@ legend{color:#000}
 img{border:0;display: block;}
 button,input,select,textarea{font-size:100%}
 table{border-collapse:collapse;border-spacing:0}
-.clear{clear:both;float:none;height:0;overflow:hidden}
+.clear{clear:both;float:none;overflow:hidden}
 fieldset{border:1px solid #d6d6d6}
 i{display: block}
 //大范围重用样式
@@ -66,6 +66,9 @@ i{display: block}
 .pc-20{padding: 20px 0;}
 .ps-20{padding: 0 20px;}
 .pc-30{padding: 30px 0;}
+.pt-80{padding-top: 80px;}
+.mt-80{margin-top: 80px;}
+.mb-80{margin-bottom: 80px;}
 .fl{float: left;}
 .fr{float: right;}
 .span-50{width: 48%;display:inline-block;padding: 0 1%;vertical-align:text-top;letter-spacing:normal; font-size:13px;}//父级元素设定字体为0，此处需设定字体大小

@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>霸屏科技_一站式搜索引擎推广运营_营销型网站建设_搜索引擎推广外包运营_北京霸屏科技有限公司</title>
+		<link rel="stylesheet" href="css/jquery.fullPage.css">
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				font: 16px/1.8 "Microsoft Yahei", verdana;
+			}
+			/* 右侧导航 */
+			
+			#fullPage-nav {
+				_display: none;
+				font-size: 12px;
+			}
+			
+			#fullPage-nav li {
+				width: 90px;
+				height: 21px;
+				margin: 10px 0 0;
+				vertical-align: middle;
+			}
+			
+			#fullPage-nav li a {
+				float: right;
+				width: 12px;
+				height: 12px;
+				color: #8F9DA4;
+				text-decoration: none;
+				text-align: right;
+			}
+			
+			#fullPage-nav li .active {
+				background: #059fda;
+				border: 1px solid #059fda;
+			}
+			
+			#fullPage-nav span {
+				display: none;
+			}
+			
+			.fullPage-tooltip {
+				float: left;
+				top: 0;
+				margin-right: 5px;
+				font: 12px "Microsoft Yahei";
+				color: #8F9DA4;
+				line-height: 21px;
+			}
+			
+			.section {
+				position: relative;
+				overflow: hidden;
+			}
+			
+			.section .bg {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.section .bg img {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			
+			
+			
+			.hgroup {
+				position: absolute;
+				width: 554px;
+				height: 176px;
+				left: 50%;
+				top: 25%;
+				margin: 0 0 0 -277px;
+				text-indent: -9999px;
+				background-image: url(images/slogan.png);
+				opacity: 0;
+				-webkit-transform: scale(0.5, 0.5);
+				transform: scale(0.5, 0.5);
+				transition: all 1s;
+			}
+			
+			.p11 {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				width: 600px;
+				margin: 0 0 0 -280px;
+				font-size: 14px;
+				color: #94a7c6;
+				opacity: 0;
+				transition: all 0.5s;
+			}
+			
+			.mail {
+				position: absolute;
+				left: 50%;
+				top: -26px;
+				width: 375px;
+				height: 26px;
+				margin-left: -187px;
+				background-image: url(images/logo.png);
+				transition: all 1s;
+			}
+			
+			.mail {
+				float: left;
+				height: 26px;
+				text-indent: -9999px;
+			}
+			
+			.mail-163 {
+				float: left;
+				width: 107px;
+			}
+			
+			.mail-126 {
+				float: left;
+				width: 108px;
+				margin-left: 23px;
+			}
+			
+			.mail-yeah {
+				float: right;
+				width: 115px;
+			}
+			
+			.bg21 {
+				position: absolute;
+				left: 50%;
+				bottom: 15%;
+				width: 819px;
+				height: 250px;
+				margin-left: -608px;
+				margin-bottom: 40px;
+				background: url(images/bg21.png) 0 0 no-repeat;
+				transition: all 1s;
+				opacity: 0;
+				margin-left: -1108px;
+			}
+			
+			.bg22 {
+				position: absolute;
+				left: 50%;
+				bottom: 15%;
+				width: 819px;
+				height: 299px;
+				margin-left: -280px;
+				margin-bottom: 70px;
+				background: url(images/bg22.png) right 0 no-repeat;
+				transition: all 1s;
+				opacity: 0;
+				margin-left: 320px;
+			}
+			
+			.bg23 {
+				position: absolute;
+				left: 50%;
+				bottom: 15%;
+				width: 819px;
+				height: 325px;
+				margin-left: -409px;
+				background: url(images/bg23.png) 50% 0 no-repeat;
+				transition: all 1s;
+				bottom: -40%;
+			}
+			
+			.section strong {
+				position: absolute;
+				left: 50%;
+				top: 15%;
+				z-index: 10;
+				width: 512px;
+				height: 45px;
+				margin-left: -256px;
+				font-size: 24px;
+				font-weight: 500;
+				color: #748A9E;
+				opacity: 0;
+				-webkit-transform: scale(0.5, 0.5);
+				transform: scale(0.5, 0.5);
+				transition: all 1s;
+			}
+			
+			.section h3 {
+				position: absolute;
+				left: 50%;
+				top: 15%;
+				z-index: 10;
+				width: 512px;
+				height: 45px;
+				margin-left: -256px;
+				margin-top: 60px;
+				text-indent: -9999px;
+				background-repeat: no-repeat;
+				opacity: 0;
+				-webkit-transform: scale(0.5, 0.5);
+				transform: scale(0.5, 0.5);
+				transition: all 1s;
+			}
+			
+			.p1 {
+				position: absolute;
+				left: 50%;
+				top: 15%;
+				width: 510px;
+				margin-left: -255px;
+				margin-top: 130px;
+				font-size: 16px;
+				color: #727F8C;
+				opacity: 0;
+				transition: all 1s;
+			}
+			
+			
+			
+		
+			
+
+
+
+
+.bg101 { position: absolute; width: 100%; height: 100%; background: url(images/bg101.png) 50% 20% no-repeat;}
+.bg102 { position: absolute; width: 100%; top: 25%; height: 79px; background: url(images/bg102.png) 50% 0 no-repeat; opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;}
+.bg103 { position: absolute; width: 100%; top: 25%; height: 37px; margin-top: 110px; background: url(images/bg103.png) 50% 0 no-repeat; opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;}
+.go { position: absolute; left: 50%; top: 55%; width: 254px; height: 70px; margin-top: 220px; margin-left: -127px; text-indent: -9999px; background-image: url(images/btn.png); opacity: 0; transition: all 1s;}
+			.copyright {
+				position: absolute;
+				left: 0;
+				bottom: 20px;
+				width: 100%;
+				text-align: center;
+				font-size: 0;
+			}
+			
+			.copyright a,
+			.copyright span {
+				margin: 0 7px;
+				font-size: 12px;
+				color: #a0a0a0;
+			}
+			/* CSS3过度及动画 */
+			
+			.active strong,
+			.active h3 {
+				opacity: 1;
+				-webkit-transform: scale(1, 1);
+				transform: scale(1, 1);
+				transition-delay: 0.7s;
+			}
+			
+			.active .p1 {
+				opacity: 1;
+				transition-delay: 1.7s;
+			}
+			
+			.active .bg12 {
+				bottom: 90px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.active .bg13 {
+				bottom: 0;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.active .hgroup {
+				opacity: 1;
+				-webkit-transform: scale(1, 1);
+				transform: scale(1, 1);
+				transition-delay: 0.7s;
+			}
+			
+			.active .mail {
+				top: 25px;
+				transition-delay: 0.7s;
+			}
+			
+			.active .p11 {
+				opacity: 1;
+				transition-duration: 1s;
+				transition-delay: 2s;
+			}
+			
+			.active .bg21 {
+				opacity: 1;
+				margin-left: -608px;
+				transition-delay: 0.7s;
+			}
+			
+			.active .bg23 {
+				bottom: 15%;
+				transition-delay: 0.7s;
+			}
+			
+			.active .bg22 {
+				margin-left: -280px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.active .p3 {
+				margin-left: -480px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.active .bg31,
+			.active .bg32 {
+				opacity: 1;
+				transition-delay: 1s;
+			}
+			
+			.active .bg33 {
+				margin-left: -120px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.active .bg41 {
+				bottom: 15%;
+				transition-delay: 0.7s;
+			}
+			
+			.active .bg42 {
+				bottom: 15%;
+				transition-delay: 1.1s;
+			}
+			
+			.active .bg43 {
+				bottom: 15%;
+				transition-delay: 0.9s;
+			}
+			
+			
+			
+		
+			
+			.active .bg62 {
+				left: 50%;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.active .txt6 {
+				left: 50%;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.active .bg71 {
+				bottom: 250px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.active .bg72 {
+				bottom: 350px;
+				opacity: 1;
+				transition-delay: 0.9s;
+			}
+			
+			.active .txt7 {
+				bottom: 420px;
+				opacity: 1;
+				transition-delay: 1.1s;
+			}
+			
+			.active .bg82 {
+				bottom: 260px;
+				margin-left: -280px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.active .bg83 {
+				bottom: 380px;
+				margin-left: -430px;
+				opacity: 1;
+				transition-delay: 1s;
+			}
+			
+			.active .bg84 {
+				bottom: 420px;
+				margin-left: -510px;
+				opacity: 1;
+				transition-delay: 1.2s;
+			}
+			
+			.active .p8 {
+				opacity: 1;
+				transition-delay: 1.7s;
+			}
+			
+			
+			
+			.active .bg102,
+			.active .bg103 {
+				opacity: 1;
+				-webkit-transform: scale(1, 1);
+				transform: scale(1, 1);
+				transition-delay: 0.7s;
+			}
+			
+			.active .go {
+				top: 25%;
+				opacity: 1;
+				transition-delay: 1.2s;
+			}
+			/* for lt ie 10 */
+			
+			.ltie10 strong,
+			.ltie10 h3 {
+				opacity: 1;
+				transform: scale(1, 1);
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .p1 {
+				opacity: 1;
+				transition-delay: 1.7s;
+			}
+			
+			.ltie10 .bg12 {
+				bottom: 90px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg13 {
+				bottom: 0;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .hgroup {
+				opacity: 1;
+				transform: scale(1, 1);
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .mail {
+				top: 25px;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .p11 {
+				opacity: 1;
+				transition-duration: 1s;
+				transition-delay: 2s;
+			}
+			
+			.ltie10 .bg21 {
+				opacity: 1;
+				margin-left: -608px;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg23 {
+				bottom: 15%;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg22 {
+				margin-left: -280px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .p3 {
+				margin-left: -480px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg31,
+			.ltie10 .bg32 {
+				opacity: 1;
+				transition-delay: 1s;
+			}
+			
+			.ltie10 .bg33 {
+				margin-left: -120px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg41 {
+				bottom: 15%;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg42 {
+				bottom: 15%;
+				transition-delay: 1.1s;
+			}
+			
+			.ltie10 .bg43 {
+				bottom: 15%;
+				transition-delay: 0.9s;
+			}
+			
+			
+			
+			
+			
+			
+			.ltie10 .bg62 {
+				left: 50%;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .txt6 {
+				left: 50%;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg71 {
+				bottom: 250px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg72 {
+				bottom: 350px;
+				opacity: 1;
+				transition-delay: 0.9s;
+			}
+			
+			.ltie10 .txt7 {
+				bottom: 420px;
+				opacity: 1;
+				transition-delay: 1.1s;
+			}
+			
+			.ltie10 .bg82 {
+				bottom: 260px;
+				margin-left: -280px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg83 {
+				bottom: 380px;
+				margin-left: -430px;
+				opacity: 1;
+				transition-delay: 1s;
+			}
+			
+			.ltie10 .bg84 {
+				bottom: 420px;
+				margin-left: -510px;
+				opacity: 1;
+				transition-delay: 1.2s;
+			}
+			
+			.ltie10 .p8 {
+				opacity: 1;
+				transition-delay: 1.7s;
+			}
+			
+			.ltie10 .bg91 {
+				margin-left: -570px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg92 {
+				opacity: 1;
+				transition-delay: 0.8s;
+			}
+			
+			.ltie10 .bg93 {
+				margin-left: 230px;
+				opacity: 1;
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .bg102,
+			.ltie10 .bg103 {
+				opacity: 1;
+				transform: scale(1, 1);
+				transition-delay: 0.7s;
+			}
+			
+			.ltie10 .go {
+				top: 25%;
+				opacity: 1;
+				transform: scale(1, 1);
+				transition-delay: 1.2s;
+			}
+		</style>
+		<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js "></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+
+		<script>
+			$(function() {
+				if($.browser.msie && $.browser.version < 10) {
+					$('body').addClass('ltie10');
+				}
+				$.fn.fullpage({
+					verticalCentered: false,
+					anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+					navigation: true,
+					navigationTooltips: ['我们是谁', '新闻动态', '发展历程', '荣誉资质', '合作优势', '合作伙伴']
+				});
+				//左右滚动
+
+				var index = 0,
+					Swidth = $(".gd_main_div").width(),
+					timer = null,
+					len = $(".gd_main_div").length;
+
+				function NextPage() {
+					if(index > len - 1) {
+						index = 0;
+					}
+					$(".gd_main").stop(true, false).animate({
+						left: -index * Swidth + "px"
+					}, 600)
+				}
+
+				function PrevPage() {
+					if(index < 0) {
+						index = len - 1;
+					}
+					$(".gd_main").stop(true, false).animate({
+						left: -index * Swidth + "px"
+					}, 600)
+				}
+				//下一页
+				$(".gd_next").click(function() {
+					index++;
+					NextPage();
+				});
+				//上一页
+				$(".gd_prev").click(function() {
+					index--;
+					PrevPage();
+				});
+				//自动滚动
+				var timer = setInterval(function() {
+					index++;
+					NextPage();
+				}, 4000);
+
+				$(".gd_next, #gd_main , .gd_prev").mouseover(function() {
+					clearInterval(timer);
+				});
+				$(".gd_next, #gd_main , .gd_prev").mouseleave(function() {
+					timer = setInterval(function() {
+						index++;
+						NextPage();
+					}, 4000);
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+
+		<div class="section section1 active">
+			
+			<div class="w-nav" style="position: fixed;top: 0;left: 0;z-index: 9999;">
+				<div class="w-1000">
+
+					<div class="nav" id="nav">
+						<ul>
+							<li>
+								<a href="index.asp">首页</a>
+							</li>
+							<li class="this">
+								<a href="about.html">关于霸屏</a>
+							</li>
+							<li>
+								<a href="case.asp">案例</a>
+							</li>
+							<li>
+								<a href="index.asp" class="kf">网站建设</a>
+							</li>
+							<li>
+								<a href="index.asp" class="yxx">推广营销</a>
+							</li>
+							<li>
+								<a href="index.asp" class="bpp">网络诊断</a>
+							</li>
+							<li>
+								<a href="index.asp" class="bpp">联系霸屏</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="bg11">
+				<div class="gd">
+					<span class="gd_prev"><</span>
+					<span class="gd_next">></span>
+					<div class="gd_main">
+						<div class="gd_main_div">
+							<h1>品牌故事</h1>
+							<h2>—— brand story ——</h2>
+							<p class="n_p1">我们的经验理念：客户第一，品质第一，客户满意第一！</p>
+							<p class="n_p2">Customer first, quality first, customer satisfaction first!</p>
+							<p class="n_p3">北京霸屏科技有限公司是一家互联网第三方服务机构，目标是让更多的传统企业在互联网时代跑起来，加速供给侧改革，为企业、为员工、为股东、为社会创造价值。北京霸屏科技有限公司本着做精品，不做次品的态度，每月只接3个订单。专注做好线上入口布局、流量拦截、订单解决的优化工作，用数据和事实说话，为您创造更多。<br /> 北京霸屏科技有限公司专注于网站建设外包服务，致力于提高网站用户体验。我们钟爱于网页设计，痴迷于HTML/CSS/JS/PHP/CMS技术。一直坚持原创设计，纯手写代码，学习借鉴而不COPY所以，我们对网站有着成熟的见解和理念
+								<br /> 多年以来，我们制作过500+家网站，20+个长期合作的网络公司，赢得了95%以上的满意率！
+								<br /> 北京霸屏服务内容有：
+								<br /> 网站建设,官网，推广网站，手机网站。账户推广搜索，搜索引擎营销，全网营销型网站。
+								<br /> 双倍的努力才可能带来一倍的满意，别看他怎么说的，且看我们怎么做的！
+							</p>
+						</div>
+						<div class="gd_main_div">
+							<h1>品牌故事</h1>
+							<h2>—— brand story ——</h2>
+							<p class="n_p1">我们的经验理念：客户第一，品质第一，客户满意第一！</p>
+							<p class="n_p2">Customer first, quality first, customer satisfaction first!</p>
+							<p class="n_p3">北京霸屏科技有限公司是一家互联网第三方服务机构，目标是让更多的传统企业在互联网时代跑起来，加速供给侧改革，为企业、为员工、为股东、为社会创造价值。北京霸屏科技有限公司本着做精品，不做次品的态度，每月只接3个订单。专注做好线上入口布局、流量拦截、订单解决的优化工作，用数据和事实说话，为您创造更多。<br /> 北京霸屏科技有限公司专注于网站建设外包服务，致力于提高网站用户体验。我们钟爱于网页设计，痴迷于HTML/CSS/JS/PHP/CMS技术。一直坚持原创设计，纯手写代码，学习借鉴而不COPY所以，我们对网站有着成熟的见解和理念
+								<br /> 多年以来，我们制作过500+家网站，20+个长期合作的网络公司，赢得了95%以上的满意率！
+								<br /> 北京霸屏服务内容有：
+								<br /> 网站建设,官网，推广网站，手机网站。账户推广搜索，搜索引擎营销，全网营销型网站。
+								<br /> 双倍的努力才可能带来一倍的满意，别看他怎么说的，且看我们怎么做的！
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section section2" style="background: #f5f5f5;">
+			<div class="w-1000 n_fd2">
+				<div class="a_center">
+					<h1>最新动态</h1>
+					<h2>—— NEWS CENTER ——</h2>
+					<p class="n_p1">建站开发需要专业知识的不断积累，霸屏科技愿与您分享心得与经验，来共创完美</p>
+					<p class="n_p2">Sharing experience with you ,Creating perfect case together！</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="section section3">
+			<div class="lc">
+				<div class="n_fd3">
+					<div class="lc1">
+						<img src="images/lcc1_03.jpg" alt="" />
+						<div>
+							<h2>2014年</h2>
+							<p>2014年北京霸屏科技有限公司成立于陕西西安</p>
+						</div>
+					</div>
+					<div class="lc2">
+						<img src="images/lcc1_03.jpg" alt="" />
+						<div>
+							<h2>2014年</h2>
+							<p>2014年北京霸屏科技有限公司成立于陕西西安</p>
+						</div>
+					</div>
+					<div class="lc3">
+						<img src="images/lcc1_03.jpg" alt="" />
+						<div>
+							<h2>2014年</h2>
+							<p>2014年北京霸屏科技有限公司成立于陕西西安</p>
+						</div>
+					</div>
+					<div class="lc4">
+						<img src="images/lcc1_03.jpg" alt="" />
+						<div>
+							<h2>2014年</h2>
+							<p>2014年北京霸屏科技有限公司成立于陕西西安</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section section4">
+			<div class="bg54">
+				<div class="a_center">
+					<h1>荣誉资质</h1>
+					<h2>—— brand story ——</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="section section5" style="background-image: url(images/ys_06.jpg);background-position: center;background-size: cover;">
+			<div class="bg54">
+				<div class="a_center">
+					<h1>服务优势</h1>
+					<h2>—— brand story ——</h2>
+					<p class="n_p1">创意、流程、执行，缺一不可</p>
+				</div>
+			</div>
+			<div class="bg51">
+				<img src="images/ys1_07.jpg" alt="" />		
+				<p>从创始至今，我们的业务方向始终不变，专注做好一件事才能更好的追求高品质，这也是霸屏存在的价值。在未来我们也是基于此信念而继续创造。</p>
+			</div>
+			<div class="bg52">
+				<img src="images/ys2_07.jpg" alt="" />		
+				<p>在不断的创新和实践中总结出可持续和可信赖的设计流程，坚持与用户一起思考，用全方面的方法发现问题、解决问题、输出计划方案，并实现客户产品价值的提升。</p>
+			</div>
+			<div class="bg53">
+				<img src="images/ys3_07.jpg" alt="" />		
+				<p>霸屏多年来积累了大量优秀的项目案例，并验证了我们的价值。在不断的探索中总结经验，以结果为导向，继续为更多客户提供优秀的服务。</p>
+			</div>
+		</div>
+
+		<div class="section section6">
+			<div class="bg63">
+				<div class="a_center">
+					<h1>合作伙伴</h1>
+					<h2>—— OUR PARTNER ——</h2>
+					<p class="n_p1">客户的信任即是我们持之以恒的动力，我们，因您而在！</p>
+					<p class="n_p2">Customer's trust is the driving force of our perseverance.</p>
+				</div>
+				
+			</div>
+			<img src="images/par_07.jpg" alt="" class="bg61"/>
+			<a href="" class="par bg62">+了解更多+</a>
+		</div>
+
+	</body>
+
+</html>

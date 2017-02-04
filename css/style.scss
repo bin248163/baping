@@ -60,8 +60,14 @@ a{text-decoration:none;color:#444;
 .w-1000{width: $width;margin: 0 auto;position: relative;
     &:after{content: "";clear: both;display: block}
 }//内容宽度
-.logo{float: left;width: 350px;height: 91px;background: url(../images/logo_03.jpg) no-repeat center left $color;display: block;}
-.tel{float: right;}//页面顶部联系电话
+.logo{float: left;width: 456px;height: 78px;padding: 15px 0;}
+.tel{float: right;overflow: hidden;padding-top: 40px;
+    p{float: left;font-size: 24px;color: $color;padding-top: 10px;}
+}//页面顶部联系电话
+.tel_l{float: left;padding-left: 30px;background: url(../images/td_06.jpg) no-repeat left center;padding-right: 15px;
+    p{font-size: 14px;padding-top: 0;color: #444;float: none;line-height: 14px;}
+    span{font-size: 20px;display: block}
+}
 .n-left{width: $n-left;float: left;padding-right: 10px;}//内页左侧
 .n-right{width: $width -($n-left +10px);float: left;}//内页右侧
 
@@ -76,13 +82,12 @@ a{text-decoration:none;color:#444;
 
 //导航部分
 .w-nav{width: 100%;background:$color;min-width:$width;overflow: hidden;}
-.nav{width:calc(1200px - 350px);margin: auto;height: 91px;line-height: 91px;float: left;
+.nav{width:$width;margin: auto;height: 50px;line-height: 50px;float: left;
     ul{
         li{float: left;position: relative;text-align: center;position: relative;
-            a{font-size: 15px;width: 121px;display: block; color: #fff;@include hover(.3s);height:100%;
-                &:hover{background: #666;background: rgba(0,0,0,.3);}  
-                &.this{background: #666;background: rgba(0,0,0,.3);}                           
-            }
+            a{font-size: 15px;width: 170px;display: block; color: #fff;@include hover(.3s);height:100%;}
+            &:hover{background: #666;background: rgba(0,0,0,.3);}  
+            &.this{background: #666;background: rgba(0,0,0,.3);}     
             ul{width: 100%;display: none;position: absolute;overflow: hidden;z-index: 9;background:$color;opacity: 0.8;filter: alpha(opacity=80);
                 li{height: 40px;width: 100%;line-height: 40px;
                     a{height: 40px;width: 100%;}
@@ -177,14 +182,16 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
 
 //点击滚动
 .gd{width:100%;height:auto;overflow:hidden;position:relative;}
-.gd_prev{height: 70px; font-size: 40px;line-height: 70px;position: absolute;top: 50%;left: 0;z-index: 9;font-family: "宋体";background: $color;color: #fff;cursor: pointer;margin-top: -35px;}
-.gd_next{height: 70px; font-size: 40px;line-height: 70px;position: absolute;top: 50%;right: 0;z-index: 9;font-family: "宋体";background: $color;color: #fff;cursor: pointer;margin-top: -35px;}
+.gd_prev{height: 123px; font-size: 123px;line-height: 123px;position: absolute;top: 50%;left: 0;z-index: 9;font-family: "宋体";color: #aaa;cursor: pointer;margin-top: -61px;}
+.gd_next{height: 123px; font-size: 123px;line-height: 123px;position: absolute;top: 50%;right: 0;z-index: 9;font-family: "宋体";color: #aaa;cursor: pointer;margin-top: -61px;}
 .gd_main{width:10000px;overflow:hidden;position:relative;z-index:1;
-    div{width:$width - 40px;float:left;padding:  0 20px;
-        span{width:(($width - 40px) / 4) - 20px;padding:0 10px;display:block;float:left;
-            a{display:block;}
-        }
-    }
+   .gd_main_div{width: $width;float: left;overflow: hidden;
+       h1{text-align: center;font-size: 36px;font-weight: normal;}
+       h2{font-size: 18px;color: $color;text-align: center;@include en}
+       .n_p1{text-align: center;font-size: 18px;}
+       .n_p2{text-align: center;font-size: 10px;}
+       .n_p3{font-size: 14px;line-height: 24px;padding:50px 124px;}
+   }
 }
 .gd_main_a2{width:100%;height:25px;text-align:center;line-height:25px;background: #d6d6d6;display: block}
 
@@ -269,10 +276,90 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
   background: -o-linear-gradient(right, red,green, blue); /* Opera 11.1 - 12.0 */
   background: -moz-linear-gradient(right, red,green, blue); /* Firefox 3.6 - 15 */
   background: linear-gradient(to right, red,green, blue); /* 标准的语法 */}
+  
+//case
+.case1{float: left;background: #059fda;color: #fff;text-align: center;padding: 66px 0;width: 140px;height: 133px;
+    span{font-size:76px;border-bottom: 1px solid #fff;display: inline-block;line-height: 80px;font-family: "宋体";}
+    p{font-size: 16px;padding-top: 5px;}
+}
+.case2{width: 490px;padding-left: 35px;float: left;
+    h2{font-size: 16px;color: #333;line-height: 32px;font-weight: normal;}
+    p{font-size: 14px;line-height: 24px;
+        &:hover{color: #444;}
+    }
+    &:hover{color: #444;}
+}
+.case3{width: 475px;overflow: hidden;padding: 10px;border: 1px solid #d3d3d3;background: #eee;float: right;
+    img{display: block;width: 100%;}
+    &:hover{color: #444;}
+}
+//about
+.n_fd1{position: absolute;top: 50%;margin-top: -200px;left: 50%;margin-left:-($width / 2);}
+.n_fd2{position: absolute;top: 50%;margin-top: -200px;left: 50%;margin-left:-($width / 2);}
+.n_fd3{position: absolute;top: 50%;margin-top: -206px;left: 50%;margin-left:-500px;width: 1000px;height: 412px;background: url(../images/lcd.png) no-repeat center;}
+.a_center{text-align: center;
+    h1{text-align: center;font-size: 36px;font-weight: normal;}
+       h2{font-size: 18px;color: $color;text-align: center;@include en}
+       .n_p1{text-align: center;font-size: 18px;}
+       .n_p2{text-align: center;font-size: 10px;}
+       .n_p3{font-size: 14px;line-height: 24px;padding:50px 124px;}
+}
+.lc{background: url(../images/lc_02.jpg) no-repeat center top;height: 100%;position: relative;}
+.lc1{width: 465px;height: 186px;background: url(../images/lc1.png) no-repeat left top;float: left;padding: 20px 0 0 20px;
+    img{width: 183px;height: 157px;float: left;}
+    div{float: left;padding-left: 20px;padding-top: 20px;
+        h2{font-size: 24px;color: $color;}
+        p{font-size: 14px;width: 210px;line-height: 24px;}
+    }
+}
+.lc2{width: 465px;height: 186px;background: url(../images/lc2.png) no-repeat right top;float: right;padding: 20px 20px 0 0;
+    img{width: 183px;height: 157px;float: right;}
+    div{float: right;padding-right: 20px;padding-top: 20px;
+        h2{font-size: 24px;color: $color;}
+        p{font-size: 14px;width: 210px;line-height: 24px;}
+    }
+}
+.lc3{width: 465px;height: 176px;background: url(../images/lc3.png) no-repeat left top;float: left;padding: 30px 0 0 20px;
+     img{width: 183px;height: 157px;float: left;}
+    div{float: left;padding-left: 20px;padding-top: 40px;
+        h2{font-size: 24px;color: $color;}
+        p{font-size: 14px;width: 210px;line-height: 24px;}
+    }
+}
+.lc4{width: 465px;height: 176px;background: url(../images/lc4.png) no-repeat right top;float: right;padding: 30px 20px 0 0;
+    img{width: 183px;height: 157px;float: right;}
+    div{float: right;padding-right: 20px;padding-top: 40px;
+        h2{font-size: 24px;color: $color;}
+        p{font-size: 14px;width: 210px;line-height: 24px;}
+    }
+}
+.par{border: 1px solid $color;color: $color;text-align: center;display: block;width: 150px;height: 43px;line-height: 43px;border-radius: 5px;@include hover;
+    &:hover{color: #fff;background: $color;}
+}
+.bg11{position: absolute;left: 50%; opacity: 0; transition: all 1s;margin-left:-($width / 2);width: $width;overflow: hidden;top:50%;margin-top: -240px;}
+.bg51, .bg52, .bg53 { padding-top: 250px; font-size: 14px;}
+.bg51 { position: absolute; left: 50%; bottom: 20%; width: 398px; margin-left: -970px; opacity: 0; transition: all 1s;}
+.bg51 p { position: relative;left: 0; padding:20px 15px;background: #fff;}
+.bg52 { position: absolute; left: 50%; bottom: 20%; width: 398px; margin-left: -199px; opacity: 0; transition: all 1s;}
+.bg52 p { position: relative; left: 0; padding:20px 15px;background: #fff;}
+.bg53 { position: absolute; left: 50%; bottom: 20%; width: 398px; margin-left: 630px; opacity: 0; transition: all 1s;}
+.bg53 p { position: relative;left: 0; padding:20px 15px;background: #fff;}
+.bg54{position: absolute;left: 50%; opacity: 0; transition: all 1s;top: 100px;margin-left:-($width / 2);width: $width;overflow: hidden;}
+.bg61{position: absolute;left: 50%; opacity: 0; transition: all 1s;width: 800px;margin-left: -400px;top:50%;margin-top: -20px;}
+.bg62{position: absolute;left: 50%; opacity: 0; transition: all 1s;bottom: 0;margin-left:-75px;}
+.bg63{position: absolute;left: 50%; opacity: 0; transition: all 1s;top: 0;margin-left:-($width / 2);width: $width;overflow: hidden;}
+.active .bg11 {opacity: 1;transition-delay: 0.8s;margin-left:-($width / 2);top:50%;margin-top: -240px;overflow: hidden;width: $width;}
+.active .bg51 {margin-left: -630px;opacity: 1;transition-delay: 0.7s;}
+.active .bg52 {opacity: 1;transition-delay: 0.8s;}
+.active .bg53 {margin-left: 230px;opacity: 1;transition-delay: 0.7s;}
+.active .bg54 {opacity: 1;transition-delay: 0.8s;margin-left:-($width / 2);top:50%;margin-top: -280px;}
+.active .bg61 {opacity: 1;transition-delay: 0.8s;width: 1099px;margin-left:-550px;top:50%;margin-top: -20px;}
+.active .bg62 {opacity: 1;transition-delay: 0.8s;margin-left:-75px;bottom: 50%;margin-bottom: -230px;}
+.active .bg63 {opacity: 1;transition-delay: 0.8s;margin-left:-($width / 2);top:50%;margin-top: -230px;}
 //首页banner样式 更改banner高度只需更改此文件头部定义$banner函数值
 .flexslider {position: relative;width: 100%;height: $banner;overflow: hidden;zoom: 1;margin-bottom: 15px;background: #eee;
     .slides li {width: 100%;height: 100%;
-         a img{width: 100%;height: $banner;}
+         a{width: 100%;height: $banner;display: block}
     }
 }
 .flex-direction-nav{
