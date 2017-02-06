@@ -42,10 +42,10 @@
 							<a href="web.asp">网站建设</a>
 						</li>
 						<li>
-							<a href="index.asp" class="yxx">推广营销</a>
+							<a href="extension.asp">推广营销</a>
 						</li>
 						<li>
-							<a href="index.asp" class="bpp">网络诊断</a>
+							<a href="diagnosis.asp">网络诊断</a>
 						</li>
 						<li>
 							<a href="index.asp" class="bpp">联系霸屏</a>
