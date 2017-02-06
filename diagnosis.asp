@@ -11,12 +11,105 @@
 			<p class="n_p1">我们接受任何挑战</p>
 		</div>
 	</div>
-	<div class="w-1000 fw">
-		<img src="images/fw_13.jpg" alt="" style="margin: 40px auto 0;" />
-		<div>
-			<span style="left: 170px;">“</span>
-			<p>霸屏科技为专业的整合营销方案提供商，为企业提供全媒体的账户托管服务。霸屏科技拥有超过15 <br />名专业优化师，为账户优化、管理、质量度优化以及ROI提升提供全面可靠的保障。</p>
-			<span style="right: 170px;">”</span>
+	<div class="w-1000">
+		<div class="rh">
+			<div class="rh1">
+				<i><img src="images/rh1_09.jpg" alt="" /></i>
+				<div>
+					<h2>网站结构分析</h2>
+					<p>网站结构是衡量网站用户体验好坏的重要指标之一，清晰的网站结构可以帮助用户快速获取所需信息，同时还直接影响搜索引擎的收录。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh2_09.jpg" alt="" /></i>
+				<div>
+					<h2>网站URL分析</h2>
+					<p>网站URL分析包括域名、URL命名规则、网站URL结构扁平化分析、URL标准化分析、避免重复页面、网站地图分析等各个方面。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh3_09.jpg" alt="" /></i>
+				<div>
+					<h2>网站导航系统分析</h2>
+					<p>网站导航系统分析，主要是分析网站导航是否明确，用户通过任何一个页面都能很方便的回到首页、上一页或者想去的页面。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh4_09.jpg" alt="" /></i>
+				<div>
+					<h2>网站代码的正确性</h2>
+					<p>网站代码分析主要包括冗余代码分析，FLASH，JS，图片等是否符合搜索引擎友好度   TITLE标签分析。H，B标签的使用是否合理等。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh5_09.jpg" alt="" /></i>
+				<div>
+					<h2>网页交互性分析</h2>
+					<p>网页交互性主要是网站通过BBS，在线即时交流工具完成客户与企业之间的交流和信息传递，从而达到及时互动，提升网站品牌。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh6_09.jpg" alt="" /></i>
+				<div>
+					<h2>链接正确性检查</h2>
+					<p>链接正确性直接影响用户体验以及搜索引擎抓取。检查网站链接的正确性，排除死链、无效的链接，可以有效提高网站的专业性。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			
+			<div class="rh1">
+				<i><img src="images/rh7_09.jpg" alt="" /></i>
+				<div>
+					<h2>浏览器兼容性测试</h2>
+					<p>浏览器兼容性主要是检查网站设计是否符合W3C标准，DIV+CSS设计的网站在不同浏览器中浏览可能会出现页面变型，对用户体验很不好</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh8_09.jpg" alt="" /></i>
+				<div>
+					<h2>网站内容全面性检查</h2>
+					<p>网站内容全面检查主要是针对网站文字、图片、动画内容的检查，排查网站出现的错误信息和不良信息，提高网站的权威性。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh9_09.jpg" alt="" /></i>
+				<div>
+					<h2>网站规划分析</h2>
+					<p>网站规划分析是对网站的目标及模式进行分析，确定网站要为用户提供那些信息和服务，最终实现网站建设的真正价值。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh10_09.jpg" alt="" /></i>
+				<div>
+					<h2>网站可信度分析</h2>
+					<p>网站可信度分析是从网站的整体结构去分析网站如何为自己的用户创建一个可信的平台，通过网站让用户对企业品牌产生信任。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh11_09.jpg" alt="" /></i>
+				<div>
+					<h2>网站功能和服务分析</h2>
+					<p>从网站所面向的用户群体，分析网站功能和服务是否能满足这些用户群的基本需求，如何优化这些功能服务来提高用户体验。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
+			<div class="rh1">
+				<i><img src="images/rh12_09.jpg" alt="" /></i>
+				<div>
+					<h2>网站诊断及运营分析</h2>
+					<p>网站是否做过相应的优化？网站运营方案是否符合现状的发展？通过网站诊断和运营分析找出最适合网站发展的最佳方案。</p>
+				</div>
+				<a href="">电话咨询</a>
+			</div>
 		</div>
 
 	</div>
@@ -67,23 +160,21 @@
 		<div>
 			<p class="rc1">Specific service items</p>
 			<p class="rc2">具体服务项目: <br />——</p>
-			<p class="rc3">注意竞争对手违规投放行为，注意品牌保护<br />
-			竞争对手投放关键词数量及价格<br />
-			竞争对手投放时间长度<br />
-			竞争对手关键词重复率<br />
-			竞争对手平均排名<br />
-			竞争对手广告创意描述
+			<p class="rc3">注意竞争对手违规投放行为，注意品牌保护<br /> 竞争对手投放关键词数量及价格
+				<br /> 竞争对手投放时间长度
+				<br /> 竞争对手关键词重复率
+				<br /> 竞争对手平均排名
+				<br /> 竞争对手广告创意描述
 			</p>
 			<a href="">了解更多</a>
 		</div>
 		<div>
 			<p class="rc1">Specific service items</p>
 			<p class="rc2">具体服务项目: <br />——</p>
-			<p class="rc3">操作/产品/专业技能培训 | 分享行业分析/报告/研究数据 | 协助制定长期/短期营销目标 | SEO增值服务<br />
-			第三方行业数据研究分析<br />
-			账户优化等小工具的使用培训和建议<br />
-			整合SEM投放策略建议（包括各搜索引擎投放分配建议）协助制定网络营销、社会化营销投放策略
-			
+			<p class="rc3">操作/产品/专业技能培训 | 分享行业分析/报告/研究数据 | 协助制定长期/短期营销目标 | SEO增值服务<br /> 第三方行业数据研究分析
+				<br /> 账户优化等小工具的使用培训和建议
+				<br /> 整合SEM投放策略建议（包括各搜索引擎投放分配建议）协助制定网络营销、社会化营销投放策略
+
 			</p>
 			<a href="">了解更多</a>
 		</div>
@@ -117,26 +208,26 @@
 		<p>根据您网站的经营项目，从营销的角度给您免费提供最专业的网站优化方案</p>
 	</div>
 	<div class="w-1000">
-		<img src="images/lc_35.jpg" alt="" style="margin: 0 auto;"/>
+		<img src="images/lc_35.jpg" alt="" style="margin: 0 auto;" />
 	</div>
 	<div class="w-1000 pt-10">
-	<div class="hzl"><img src="images/hz_38.jpg" alt="" /></div>
-	<div class="hzr">
-		<div id="demo" class="demo">
-			<div id="indemo" class="indemo">
-				<div id="demo1" class="demo1">
-					<a href="#"><img src="images/de1_39.jpg" border="0" /></a>
-					<a href="#"><img src="images/de2_39.jpg" border="0" /></a>
-					<a href="#"><img src="images/de3_39.jpg" border="0" /></a>
-					<a href="#"><img src="images/de4_39.jpg" border="0" /></a>
-					<a href="#"><img src="images/de5_39.jpg" border="0" /></a>
-					<a href="#"><img src="images/de6_39.jpg" border="0" /></a>
+		<div class="hzl"><img src="images/hz_38.jpg" alt="" /></div>
+		<div class="hzr">
+			<div id="demo" class="demo">
+				<div id="indemo" class="indemo">
+					<div id="demo1" class="demo1">
+						<a href="#"><img src="images/de1_39.jpg" border="0" /></a>
+						<a href="#"><img src="images/de2_39.jpg" border="0" /></a>
+						<a href="#"><img src="images/de3_39.jpg" border="0" /></a>
+						<a href="#"><img src="images/de4_39.jpg" border="0" /></a>
+						<a href="#"><img src="images/de5_39.jpg" border="0" /></a>
+						<a href="#"><img src="images/de6_39.jpg" border="0" /></a>
+					</div>
+					<div id="demo2" class="demo2"></div>
 				</div>
-				<div id="demo2" class="demo2"></div>
 			</div>
 		</div>
 	</div>
-</div>
 </div>
 <div style="background: url(images/lc1_26.jpg);text-align: center;height: 228px;margin-top: 70px;">
 	<h1 style="font-size: 31px;color: #fff;padding-top: 60px;">你不做的，你的对手就一定做</h1>
