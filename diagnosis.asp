@@ -41,7 +41,7 @@
 				<i><img src="images/rh4_09.jpg" alt="" /></i>
 				<div>
 					<h2>网站代码的正确性</h2>
-					<p>网站代码分析主要包括冗余代码分析，FLASH，JS，图片等是否符合搜索引擎友好度   TITLE标签分析。H，B标签的使用是否合理等。</p>
+					<p>网站代码分析主要包括冗余代码分析，FLASH，JS，图片等是否符合搜索引擎友好度 TITLE标签分析。H，B标签的使用是否合理等。</p>
 				</div>
 				<a href="">电话咨询</a>
 			</div>
@@ -61,7 +61,7 @@
 				</div>
 				<a href="">电话咨询</a>
 			</div>
-			
+
 			<div class="rh1">
 				<i><img src="images/rh7_09.jpg" alt="" /></i>
 				<div>
@@ -115,120 +115,129 @@
 	</div>
 
 </div>
-<div style="background: url(images/lc1_26.jpg);text-align: center;height: 228px;">
-	<h1 style="font-size: 31px;color: #fff;padding-top: 60px;">期待一切可能发生的</h1>
-	<p style="font-size: 48px;color: #fff;padding-top: 40px;font-weight: bold;">为您实现更智慧、更精准、更美好的营销价值</p>
+<div class="w-1000 pt-80 pb-70">
+	<img src="images/cg_03.jpg" alt="" />
 </div>
-<div class="w-1000">
-	<img src="images/yz_17.jpg" style="margin: 28px auto 80px;" />
-</div>
-<div class="w-100"><img src="images/zy_20.jpg" alt="" style="width: 100%;" /></div>
 <div class="w-1000">
 	<div class="a_center">
-		<h2 style="padding:60px 0 10px 0;font-size: 35px;line-height: 40px;">账户优化服务</h2>
-		<p class="n_p1">霸屏科技为客户提供的账户优化服务包括：账户日常维护，定制化报告及数据分析，给予效果的优化提升等</p>
+		<h2 style="padding:0 0 10px 0;font-size: 35px;line-height: 40px;">我们积累了各行各业丰富的案例和经验</h2>
 	</div>
-	<div class="rc">
-		<div>
-			<p class="rc1">Specific service items</p>
-			<p class="rc2">具体服务项目: <br />——</p>
-			<p class="rc3">账户预算调整，账户结构调整 | 账户问题分析处理 | 新增物料调整，上传与投放 | 关键词设置调整 | 广告创意调整、设置（文字、图片、动画、图文混排）关键词出价调整 | 推广设置调整 | 目标页面网址更新 | 网盟推广调整（根据搜索行为，点击行为，浏览行为，访客行为定向优化） | 百度新产品测试 | 上传错误修改 | 账户结构优化
-			</p>
-			<a href="">了解更多</a>
+	<div style="width: 1300px;overflow: hidden;padding-top: 35px;">
+		<div class="wn">
+			<a href="http://new.zhengzhibang.com/" target="_blank">
+				<img src="images/wn1_07.jpg" alt="" />
+				<div>
+					<h2>正职帮</h2>
+					<p>企业着装定制专家</p>
+				</div>
+			</a>
 		</div>
-		<img src="images/rc1_23.jpg" alt="" />
-		<img src="images/rc2_27.jpg" alt="" />
-		<div>
-			<p class="rc1">target</p>
-			<p class="rc2">目标: <br />——</p>
-			<p class="rc3">常规报告的导出整理<br /> 日报：昨日账户整体数据表现；消耗异常词分析，TOP词分析
-				<br /> 周报：每日数据表现分日折线图；地域表现；搜索词报告；TOP词分析；
-				<br /> 点击率TOP广告语分析；搜索、网盟表现
-				<br /> 月报：当月综合数据汇报；竞争对手投放分析；下月投放计划
-			</p>
-			<a href="">了解更多</a>
+		<div class="wn">
+			<a href="http://www.juanzhijia.com/" target="_blank">
+				<img src="images/wn2_07.jpg" alt="" />
+				<div>
+					<h2>居安之家</h2>
+					<p>居安之家 防盗专家</p>
+				</div>
+			</a>
 		</div>
-		<div>
-			<p class="rc1">Specific service items</p>
-			<p class="rc2">具体服务项目: <br />——</p>
-			<p class="rc3">账户预算调整，账户结构调整 | 账户问题分析处理 | 新增物料调整，上传与投放 | 关键词设置调整 | 广告创意调整、设置（文字、图片、动画、图文混排）关键词出价调整 | 推广设置调整 | 目标页面网址更新 | 网盟推广调整（根据搜索行为，点击行为，浏览行为，访客行为定向优化） | 百度新产品测试 | 上传错误修改 | 账户结构优化
-			</p>
-			<a href="">了解更多</a>
+		<div class="wn">
+			<a href="http://aimier888.com/" target="_blank">
+				<img src="images/wn3_07.jpg" alt="" />
+				<div>
+					<h2>艾米尔</h2>
+					<p>半永久培训机构</p>
+				</div>
+			</a>
 		</div>
-		<img src="images/rc3_27.jpg" alt="" />
-		<img src="images/rc4_27.jpg" alt="" />
-		<div>
-			<p class="rc1">Specific service items</p>
-			<p class="rc2">具体服务项目: <br />——</p>
-			<p class="rc3">注意竞争对手违规投放行为，注意品牌保护<br /> 竞争对手投放关键词数量及价格
-				<br /> 竞争对手投放时间长度
-				<br /> 竞争对手关键词重复率
-				<br /> 竞争对手平均排名
-				<br /> 竞争对手广告创意描述
-			</p>
-			<a href="">了解更多</a>
+		<div class="wn">
+			<a href="http://yongxian888.com/" target="_blank">
+				<img src="images/wn4_07.jpg" alt="" />
+				<div>
+					<h2>永先装饰</h2>
+					<p>办公室装饰第一品牌</p>
+				</div>
+			</a>
 		</div>
-		<div>
-			<p class="rc1">Specific service items</p>
-			<p class="rc2">具体服务项目: <br />——</p>
-			<p class="rc3">操作/产品/专业技能培训 | 分享行业分析/报告/研究数据 | 协助制定长期/短期营销目标 | SEO增值服务<br /> 第三方行业数据研究分析
-				<br /> 账户优化等小工具的使用培训和建议
-				<br /> 整合SEM投放策略建议（包括各搜索引擎投放分配建议）协助制定网络营销、社会化营销投放策略
-
-			</p>
-			<a href="">了解更多</a>
+		<div class="wn">
+			<a href="http://xayiyang.com/" target="_blank">
+				<img src="images/wn5_07.jpg" alt="" />
+				<div>
+					<h2>毅阳环保</h2>
+					<p>污水处理</p>
+				</div>
+			</a>
 		</div>
-		<img src="images/rc5_27.jpg" alt="" />
+		<div class="wn">
+			<a href="http://029qianzheng.com/" target="_blank">
+				<img src="images/wn6_07.jpg" alt="" />
+				<div>
+					<h2>陕西悦享签证中心</h2>
+					<p>签证办理，快人一步</p>
+				</div>
+			</a>
+		</div>
 	</div>
-</div>
 
-<div class="w-100" style="background: url(images/jl_20.jpg) repeat-y center;text-align: center;padding: 65px 0 50px;margin-top: 70px;">
-	<h1 style="font-size: 31px;color: #fff;">4大服务承诺</h1>
-	<p style="font-size: 18px;color: #fff;padding-top: 20px;">收费模式 &nbsp;&nbsp;|&nbsp;&nbsp; 消费透明 &nbsp;&nbsp;| &nbsp;&nbsp;优质服务 &nbsp;&nbsp;|&nbsp;&nbsp; 服务承诺</p>
 </div>
 <div class="w-1000">
-	<div class="cn">
-		<i><img src="images/cn1_31.jpg" alt="" /></i>
-		<h2>按月效果收费</h2>
-		<p>霸屏科技的模式是按月按效果收费，所以您可以非常放心，一年当中上了几天推广，哪几天没上，非常透明</p>
+	<img src="images/zx_07.jpg" alt="" style="margin: 0 auto;" />
+</div>
+<div class="w-100" style="background: url(images/cnb.jpg) no-repeat center bottom;">
+	<div class="w-1000 pt-80">
+	<div class="a_center">
+		<h2 style="padding:0 0 10px 0;font-size: 35px;line-height: 40px;color: #444;">我们给您的承诺！</h2>
 	</div>
-	<div class="cn">
-		<i><img src="images/cn2_31.jpg" alt="" /></i>
-		<h2>专业客服全程一对一服务</h2>
-		<p>我深深的明白，可能我的服务不能为您做到尽善尽美，但是只要从你咨询我的那一刻起，我确信我会全力以赴</p>
-	</div>
-	<div class="cn">
-		<i><img src="images/cn3_31.jpg" alt="" /></i>
-		<h2>成就行业领先</h2>
-		<p>多个行业服务经验，15+优化师任您选择，成功优化竞价广告40+</p>
-	</div>
-	<div class="cn">
-		<i><img src="images/cn4_31.jpg" alt="" /></i>
-		<h2>最专业的营销建议</h2>
-		<p>根据您网站的经营项目，从营销的角度给您免费提供最专业的网站优化方案</p>
-	</div>
-	<div class="w-1000">
-		<img src="images/lc_35.jpg" alt="" style="margin: 0 auto;" />
-	</div>
-	<div class="w-1000 pt-10">
-		<div class="hzl"><img src="images/hz_38.jpg" alt="" /></div>
-		<div class="hzr">
-			<div id="demo" class="demo">
-				<div id="indemo" class="indemo">
-					<div id="demo1" class="demo1">
-						<a href="#"><img src="images/de1_39.jpg" border="0" /></a>
-						<a href="#"><img src="images/de2_39.jpg" border="0" /></a>
-						<a href="#"><img src="images/de3_39.jpg" border="0" /></a>
-						<a href="#"><img src="images/de4_39.jpg" border="0" /></a>
-						<a href="#"><img src="images/de5_39.jpg" border="0" /></a>
-						<a href="#"><img src="images/de6_39.jpg" border="0" /></a>
-					</div>
-					<div id="demo2" class="demo2"></div>
-				</div>
-			</div>
+	<div class="w-1000 pt-40">
+		<div class="cnn" style="border-left: 1px solid #d6d6d6;">
+		<div class="cn1">
+			<span>01 <br />—</span>
+			<h2>国内首家</h2>
+			<p>First domestic</p>
+		</div>
+		<div class="cn2">
+			<p>2011年全国首家推出SEO诊断服务,让企业掌握排名规则，无需长期外包。</p>
+			<a href="">电话咨询</a>
 		</div>
 	</div>
+	<div class="cnn">
+		<div class="cn1">
+			<span>02 <br />—</span>
+			<h2>永久有效</h2>
+			<p>Permanent and effective</p>
+		</div>
+		<div class="cn2">
+			<p>完全契合百度SEO规则，符合用户体验，永久有效，让排名坚若磐石。</p>
+			<a href="">电话咨询</a>
+		</div>
+	</div>
+	<div class="cnn">
+		<div class="cn1">
+			<span>03 <br />—</span>
+			<h2>安全无忧</h2>
+			<p>Safe and worry free</p>
+		</div>
+		<div class="cn2">
+			<p>由资深SEO项目经理亲自操刀，避免失败的策略导致网站反被降权！</p>
+			<a href="">电话咨询</a>
+		</div>
+	</div>
+	<div class="cnn">
+		<div class="cn1">
+			<span>04 <br />—</span>
+			<h2>高端定位</h2>
+			<p>High-end positioning</p>
+		</div>
+		<div class="cn2">
+			<p>每一份方案都是独一无二的，每一位客户都是我们的成功案例。</p>
+			<a href="">电话咨询</a>
+		</div>
+	</div>
+	</div>
 </div>
+</div>
+
+
 <div style="background: url(images/lc1_26.jpg);text-align: center;height: 228px;margin-top: 70px;">
 	<h1 style="font-size: 31px;color: #fff;padding-top: 60px;">你不做的，你的对手就一定做</h1>
 	<p style="font-size: 48px;color: #fff;padding-top: 40px;font-weight: bold;">你还在等什么？</p>
@@ -264,5 +273,5 @@
 		var nav = $('#nav ul li');
 		nav.eq(num).addClass('this');
 	}
-	curNav(4);
+	curNav(5);
 </script>
