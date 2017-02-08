@@ -497,6 +497,39 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
         }
     }
 }
+//联系我们
+.con-l{width: 198px;float: left;
+    div{background: url(../images/lx_03.jpg) repeat-y;text-align: center;line-height: 45px;color: #fff;font-size: 18px;}
+    ul{
+        li{overflow: hidden;border-bottom: 1px dashed #d6d6d6;padding: 20px 0;cursor: pointer;@include hover;
+            i{width: 60px;float: left;background-image: url(../images/lx1.jpg);height: 60px;}
+            p{font-size: 14px;width: 125px;float: right;line-height: 22px;@include hover;
+                span{font-size: 16px;}
+            }
+            .lx1{background-position: 0 -60px;@include hover;}
+            .lx2{background-position: 60px -60px;@include hover;}
+            .lx3{background-position: 120px -60px;@include hover;}
+            &:hover{border-bottom: 1px dashed $color;
+                p{color: $color;}
+                .lx1{background-position: 0 0;}
+                .lx2{background-position: 60px 0;}
+                .lx3{background-position: 120px 0;}
+            }
+        }
+    }
+}
+.con-r{width: 950px;float: right;
+    h1{font-size: 28px;line-height: 38px;}
+    h2{font-size: 18px;padding: 10px 0;font-weight: normal;}
+    p{font-size: 14px;line-height: 24px;padding-top: 2px;}
+}
+.rx{padding: 30px 0;border-bottom: 1px solid #d6d6d6;overflow: hidden;
+    i{float: left;width: 43px;}
+    div{float: left;width: 880px;
+        p{font-size: 14px;padding-left: 20px;line-height: 25px;}
+        span{padding-right: 100px;font-size: 16px;font-weight: bold;}
+    }
+}
 //首页banner样式 更改banner高度只需更改此文件头部定义$banner函数值
 .flexslider {position: relative;width: 100%;height: $banner;overflow: hidden;zoom: 1;margin-bottom: 15px;background: #eee;
     .slides li {width: 100%;height: 100%;

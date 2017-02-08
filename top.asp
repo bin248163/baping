@@ -48,7 +48,7 @@
 							<a href="diagnosis.asp">网络诊断</a>
 						</li>
 						<li>
-							<a href="index.asp" class="bpp">联系霸屏</a>
+							<a href="contact.asp">联系霸屏</a>
 						</li>
 					</ul>
 				</div>
