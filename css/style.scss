@@ -186,7 +186,7 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
 .gd_next{height: 123px; font-size: 123px;line-height: 123px;position: absolute;top: 50%;right: 0;z-index: 9;font-family: "宋体";color: #aaa;cursor: pointer;margin-top: -61px;}
 .gd_main{width:10000px;overflow:hidden;position:relative;z-index:1;
    .gd_main_div{width: $width;float: left;overflow: hidden;
-       h1{text-align: center;font-size: 36px;font-weight: normal;}
+       h1{text-align: center;font-size: 36px;font-weight: normal;line-height: 40px;}
        h2{font-size: 18px;color: $color;text-align: center;@include en}
        .n_p1{text-align: center;font-size: 18px;}
        .n_p2{text-align: center;font-size: 10px;}
@@ -396,7 +396,63 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
 .active .bg61 {opacity: 1;transition-delay: 0.8s;width: 1099px;margin-left:-550px;top:50%;margin-top: -30px;}
 .active .bg62 {opacity: 1;transition-delay: 0.8s;margin-left:-75px;bottom: 50%;margin-bottom: -230px;}
 .active .bg63 {opacity: 1;transition-delay: 0.8s;margin-left:-($width / 2);top:50%;margin-top: -230px;}
-
+#fullPage-nav {
+                _display: none;
+                font-size: 12px;
+            }
+            
+            #fullPage-nav li {
+                width: 90px;
+                height: 21px;
+                margin: 10px 0 0;
+                vertical-align: middle;
+            }
+            
+            #fullPage-nav li a {
+                float: right;
+                width: 12px;
+                height: 12px;
+                color: #8F9DA4;
+                text-decoration: none;
+                text-align: right;
+            }
+            
+            #fullPage-nav li .active {
+                background: #059fda;
+                border: 1px solid #059fda;
+            }
+            
+            #fullPage-nav span {
+                display: none;
+            }
+            
+            .fullPage-tooltip {
+                float: left;
+                top: 0;
+                margin-right: 5px;
+                font: 12px "Microsoft Yahei";
+                color: #8F9DA4;
+                line-height: 21px;
+            }
+            
+            .section {
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .section .bg {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            
+            .section .bg img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
 //web
 .ws{float: left;width: 270px;float: left;margin-right: 40px;margin-top: 70px;margin-bottom: 70px;
     h2{font-size: 16px;font-weight: normal;padding-top: 15px;}
