@@ -4,19 +4,13 @@
 			<h3 class="h4">首页</h3>
 			<ul>
 				<li>
-					<a href="">网站案例</a>
+					<a href="about.html">关于霸屏</a>
 				</li>
 				<li>
-					<a href="">网站建设</a>
+					<a href="case.asp">客户案例</a>
 				</li>
 				<li>
-					<a href="">网站推广</a>
-				</li>
-				<li>
-					<a href="">客服服务</a>
-				</li>
-				<li>
-					<a href="">公司优势</a>
+					<a href="contact.asp">联系霸屏</a>
 				</li>
 			</ul>
 		</div>
@@ -24,16 +18,13 @@
 			<h3 class="h4">服务</h3>
 			<ul>
 				<li>
-					<a href="">网站建设</a>
+					<a href="web.asp">网站建设</a>
 				</li>
 				<li>
-					<a href="">推广网站</a>
+					<a href="extension.asp">推广营销</a>
 				</li>
 				<li>
-					<a href="">手机网站</a>
-				</li>
-				<li>
-					<a href="">账户推广搜索</a>
+					<a href="diagnosis.asp">网络诊断</a>
 				</li>
 			</ul>
 		</div>
@@ -76,7 +67,7 @@
 <div class="bottom1">
 	<div class="w-1000">
 		<p class="bot-p1">
-			北京霸屏科技有限公司   备案号 京ICP备16034582号-1
+			霸屏科技有限公司   备案号 京ICP备16034582号-1
 		</p>
 		
 		<div class="cnzz">
@@ -103,6 +94,10 @@
 			<span>弹出二维码</span>
 			<div class="r-ewm"><img src="images/ewm.png" alt="" /></div>
 		</a>
+		<div class="qqn1 itopw" style="cursor: pointer;">
+			<i class="itop"><img src="images/itop_01.jpg" alt="" /></i>
+			<span>返回顶部</span>
+		</div>
 		<div class="r-d">
 			<span>全响应</span>
 			<span>全网通</span>

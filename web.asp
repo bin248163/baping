@@ -42,9 +42,9 @@
 	<div class="w-1000 clear pt-40 pb-70">
 		<div class="bg211">
 			<ul>
-				<li>SEO动态</li>
-				<li>设计动态</li>
-				<li>建站知识</li>
+				<li>品牌官网</li>
+				<li>营销网站</li>
+				<li>手机网站</li>
 			</ul>
 		</div>
 		<div class="bg212">
@@ -77,6 +77,7 @@
 	<h1 style="font-size: 31px;color: #fff;">我们积累了各行各业丰富的案例和经验</h1>
 	<p style="font-size: 18px;color: #fff;padding-top: 20px;">全部 / 网站 / 移动app</p>
 </div>
+<!--
 <div class="w-100b">
 	<div class="w-1000 pt-80">
 		<div class="a_center">
@@ -113,6 +114,7 @@
 		</div>
 	</div>
 </div>
+-->
 <div class="w-1000 pt-80">
 	<div class="a_center">
 		<h1>服务流程</h1>

@@ -116,6 +116,12 @@ $(function() {
 		}, 300);
 		return false;
 	});
+	$('.itopw').click(function() {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 300);
+		return false;
+	});
 	$('.jb').fadeOut();
 	//向左滚动效果
 	if($('#demo').length > 0) {

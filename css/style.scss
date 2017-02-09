@@ -31,6 +31,9 @@ background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,
 transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25deg);-webkit-transform: skewx(-25deg);}
 @mixin beforeh{left:100%;@include hover(1s);}
 
+.itop{width: 17px;padding-left: 3px;
+    img{width: 100%;}
+}
 //边框动画效果1,通过js添加class属性调用
 .border1{position: relative;z-index: 1;
     &:before,&:after{position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
