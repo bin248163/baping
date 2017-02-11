@@ -19,7 +19,7 @@
 	<body>
 		<div class="container">
 			<div class="header">
-				<div class="home"><img src="images/home_06.jpg" alt="" /></div>
+				<div class="home"><a href="index.asp"><img src="images/home_06.jpg" alt="" /></a></div>
 				<div class="logo"><a href="index.asp"><img src="images/logo_03.jpg" alt="" /></a></div>
 				<div class="nav-y"><img src="images/nav_06.jpg" alt="" /></div>
 			</div>
@@ -29,16 +29,16 @@
 						<a href="index.asp">首页</a>
 					</li>
 					<li>
-						<a href="open.asp">关于霸屏</a>
+						<a href="about.asp">关于霸屏</a>
 					</li>
 					<li class="w2">
-						<a href="change.asp">案例</a>
+						<a href="case.asp">案例</a>
 					</li>
 					<li>
-						<a href="finger.asp">网站建设</a>
+						<a href="web.asp">网站建设</a>
 					</li>				
 					<li>
-						<a href="about.asp">推广营销</a>
+						<a href="extension.asp">推广营销</a>
 					</li>
 					<li>
 						<a href="about.asp">网络诊断</a>

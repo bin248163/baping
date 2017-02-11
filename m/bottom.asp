@@ -1,6 +1,4 @@
-<div class="bottom">
-	<p>北京霸屏科技有限公司 备案号 京ICP备16034582号-1</p>
-</div>
+
 </div>
 <div class="bottom-f">
 	<a href="tel:15002933668" class="bottom-l">

@@ -110,6 +110,6 @@
 </div>
 </body>
 
-<script src="js/slider.js"></script>
-<script src="js/script.js"></script>
+<script src="js/slider.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
 </html>

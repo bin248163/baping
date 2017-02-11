@@ -169,7 +169,7 @@
 			</a>
 		</div>
 		<div class="wn">
-			<a href="http://029qianzheng.com/" target="_blank">
+			<a href="http://sxqianzheng.com/" target="_blank">
 				<img src="images/wn6_07.jpg" alt="" />
 				<div>
 					<h2>陕西悦享签证中心</h2>

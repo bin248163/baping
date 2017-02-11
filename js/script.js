@@ -28,7 +28,7 @@ $(function() {
 		return false;
 	});
 	$tabList.eq(0).click();
-	//渐现
+	//首页渐现效果
 	var jsn = $('#jsn'),
 		tgn = $('#tgn'),
 		kfn = $('#kfn'),
@@ -87,7 +87,7 @@ $(function() {
 	$('#banner_tabs .flex-next').click(function() {
 		bannerSlider.next()
 	});
-	//右侧
+	//右侧客服
 	var $qq = $('#qq'),
 		$zx = $('#zx'),
 		$zxn = $('#zxn'),
@@ -105,10 +105,8 @@ $(function() {
 
 		} else {
 			$qq.fadeOut(500);
-
 		}
 	});
-
 	//返回顶部
 	top.click(function() {
 		$('body,html').animate({
@@ -123,6 +121,7 @@ $(function() {
 		return false;
 	});
 	$('.jb').fadeOut();
+	
 	//向左滚动效果
 	if($('#demo').length > 0) {
 		var speed = 50; //数字越大速度越慢
@@ -145,9 +144,8 @@ $(function() {
 		t.onmouseout = function() {
 			MyMar = setInterval(Marquee, speed)
 		};
-	} else {
-		return false;
-	}
+	} 
+	
 	//跳到
 	/*$('.tgs').click(function() {
 		var scroll_offset = csss.offset();
@@ -192,4 +190,9 @@ $(function() {
 		return false;
 	});*/
 	
+	
 })
+try{window.console&&window.console.log&&(
+	console.log("一张网页，要经历怎样的过程，才能抵达用户面前？\n一位新人，要经历怎样的成长，才能站在技术之巅？\n探寻这里的秘密；\n体验这里的挑战；\n成为这里的主人；\n加入霸屏，你，可以影响世界。\n"),
+	console.log("欢迎加入我们","color:red")
+	)}

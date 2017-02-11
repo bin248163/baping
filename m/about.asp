@@ -1,59 +1,61 @@
 <!--#include file="top.asp"-->
-
-	<div class="banner-w">
-		<img src="images/banner1_06.jpg" alt="" />
+<img src="images/ab1_02.jpg" alt="" style="width: 100%;"/>
+<div class="ab">
+	<img src="images/ab2_03.jpg" alt="" style="width: 100%;"/>
+	<div>
+		<h1>我们的经验理念：客户第一，品质第一，客户满意第一！</h1>
+		<span>Customer first, quality first, customer satisfaction first!</span>
+		<p>北京霸屏科技有限公司是一家互联网第三方服务机构，目标是让更多的传统企业在互联网时代跑起来，加速供给侧改革，为企业、为员工、为股东、为社会创造价值。北京霸屏科技有限公司本着做精品，不做次品的态度，每月只接3个订单。专注做好线上入口布局、流量拦截、订单解决的优化工作，用数据和事实说话，为您创造更多。
+北京霸屏科技有限公司专注于网站建设外包服务，致力于提高网站用户体验。我们钟爱于网页设计，痴迷于HTML/CSS/JS/PHP/CMS技术。一直坚持原创设计，纯手写代码，学习借鉴而不COPY所以，我们对网站有着成熟的见解和理念
+多年以来，我们制作过500+家网站，20+个长期合作的网络公司，赢得了95%以上的满意率！<br />
+北京霸屏服务内容有：<br />
+网站建设,官网，推广网站，手机网站。账户推广搜索，搜索引擎营销，全网营销型网站。<br />
+双倍的努力才可能带来一倍的满意，别看他怎么说的，且看我们怎么做的！</p>
 	</div>
-	<div class="main">
-		<h1>居安之家<span>公司简介</span></h1>
-		<div class="con">
-			<p class="about">居安之家主张家庭安全是幸福生活的最基本前提，居安之家号召人们提高安全意识，
-呼吁人们为守护美满之家付诸行动。</p>
-			<p class="about">
-				家庭安全既不是临时抱佛脚（仓皇狼狈，不知所措），也不是亡羊补牢（事后挽救，
-为时晚矣），而是防患于未然（未雨绸缪，从容应对）。 
-			</p>
-			<p class="about">
-				安全守护战士可靠专业！居安之家覆盖全国400多座城市，现拥有3000多名家庭安全
-守护战士提供上门换锁等服务。
-			</p>
-			<p class="about">
-				居安之家将多年积累的市场经验应用于家庭安全领域，完成了互联网、移动互联网、
-实体店与生产基地的全方位联结。居安之家基于LBS为用户提供开锁、换锁、防盗升级，
-防火升级等服务为了从源头严控质量，在广州建立了生产基地，生产高精锁具和安防用品
-等，为家庭用户铸建了更完美的用户体验和安全服务。
-			</p>
-			
+</div>
+<img src="images/ab3_05.jpg" alt="" style="width: 100%;"/>	
+<div class="ab1">
+	<img src="images/ab4_05.jpg" alt="" style="width: 100%;"/>
+	<div class="ab1-n">
+		<h1>建站开发需要专业知识的不断积累，霸屏科技愿与您分享心得与经验，来共创完美</h1>
+		<span>Sharing experience with you ,Creating perfect case together！</span>
+		<div class="div2">
+			<img src="images/bg2_03.jpg" alt=""/>
+			<div>
+				<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+				
+				<a href="">+</a>
+			</div>
 		</div>
-		<div class="con">
-			<img src="images/ab_03.jpg" alt="" />
-			<p class="ab">居安之家，中国居家安全领导品牌</br>
-中国家庭安全综合服务提供商<br />
-居安之家，安全到家！</p>
+		<div class="div2">
+			<img src="images/bg2_03.jpg" alt=""/>
+			<div>
+				<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+				
+				<a href="">+</a>
+			</div>
 		</div>
+		<div class="div2">
+			<img src="images/bg2_03.jpg" alt=""/>
+			<div>
+				<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+				
+				<a href="">+</a>
+			</div>
+		</div>
+		<div class="div2">
+			<img src="images/bg2_03.jpg" alt=""/>
+			<div>
+				<p>西安SEO、网站建设、网站优化、外贸网站 <br />2013-11-26 <br /><span>—</span></p>
+				
+				<a href="">+</a>
+			</div>
+		</div>
+		
 	</div>
-	<div class="main">
-		<h1>居安之家<span>公司团队</span></h1>
-		<div class="con">
-			<p class="about">居安之家在全国现拥有3000多名家庭安全守护战士提供上门换锁等服务。居安之家的
-安全战士都是从退伍军人中层层筛选出来的，身份信息均在公安局联网备案。居安之家全
-员实施军事化管理。居安之家——您的安全管家！</p>
-			<p class="about">
-				居安之家致力捍卫社会环境中以家庭为单位的人身及财产安全。家庭安全是社会安全
-的基础，只有千千万万的家庭安全美满，才能实现全社会的美好和谐。
-			</p>
-			<p class="about">
-				对于每个家庭中的大小事物，居安之家都“视如珍宝”，以专业的防火防盗技术，时
-刻杜绝安全隐患。居安之家捍卫家庭安全的恒心不会随着时间的推移而改变，反而如同古
-币一样岁月砥砺，历久弥珍。
-			</p>
-			
-			
-		</div>
-		<div class="con">
-			<div class="pro1 mr-1"><img src="images/team3_10.jpg" alt="" /></div>
-			<div class="pro1"><img src="images/team4_10.jpg" alt="" /></div>
-		</div>
-	</div>
+</div>
+<img src="images/ab5_08.jpg" alt="" style="width: 100%;background: #5ca6d5;padding: 3rem 0;"/>	
+<a href="case.asp"><img src="images/ab6_10.jpg" alt="" style="width: 100%;"/>	</a>
 	
 <!--#include file="bottom.asp"-->
 	<script type="text/javascript">
@@ -61,5 +63,5 @@
 		var nav = $('#nav ul li');
 		nav.eq(num).addClass('this');
 	}
-	curNav(4);
+	curNav(1);
 </script>

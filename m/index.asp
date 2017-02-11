@@ -173,6 +173,9 @@
 	</div>
 </div>
 <img src="images/inm_33.jpg" alt="" style="width: 100%;padding-top: 1rem;background: #fff;"/>
+<div class="bottom">
+	<p>北京霸屏科技有限公司 备案号 京ICP备16034582号-1</p>
+</div>
 <!--#include file="bottom.asp"-->
 <script type="text/javascript">
 	function curNav(num) {
